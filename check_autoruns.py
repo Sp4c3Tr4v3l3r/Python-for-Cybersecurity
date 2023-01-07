@@ -33,5 +33,5 @@ def check_autoruns():
 				print(f"\nAutoruns detected at {hive}\\{path}\n")
 				for autorun in autoruns:
 					print(f"\t{autorun[0]}: {autorun[1]}")
-
-check_autoruns()
+if __name__ == '__main__':
+    check_autoruns()
