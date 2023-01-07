@@ -12,5 +12,6 @@ def close_process(processes_to_terminate):
             except:
                 continue
 
-processes_to_terminate = input("Input the name of the application you want to close: ")
-close_process(processes_to_terminate)
+if __name__ == '__main__':
+    processes_to_terminate = input("Input the name of the application you want to close: ")
+    close_process(processes_to_terminate)
