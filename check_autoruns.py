@@ -1,6 +1,6 @@
 ## This program checks for autoruns in the Windows registry.
 ## It looks for autoruns in the HKEY_CURRENT_USER and HKEY_LOCAL_MACHINE hives in the SOFTWARE\Microsoft\Windows\CurrentVersion\Run and SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce paths.
-## If any autoruns are found, the program will print the name and data of each autorun it finds.
+## If any autoruns are found, the program will print the name and data of each autorun it finds
 
 import winreg
 
