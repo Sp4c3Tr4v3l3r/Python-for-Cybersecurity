@@ -1,5 +1,5 @@
 ## This code monitors a folder and detects any changes made to it, such as the creation, deletion, modification, and renaming of files.
-## It then outputs the change that was made and the filename of the file that was changed.
+## It then outputs the change that was made and the filename of the file that was changed
 
 import os
 import win32con
