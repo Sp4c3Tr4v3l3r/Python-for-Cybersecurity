@@ -1,7 +1,7 @@
 ## This code checks which scheduled tasks are running on the computer.
 ## It loops through each task and checks if the creator name associated with the task is trusted (in this case, the trusted creators are NVIDIA, Microsoft, and Mozilla).
 ## It also checks if any of the tasks have an extension that is suspicious (in this case, .exe, .dll, and .py).
-## If the task is not from a trusted creator and has a suspicious extension, it prints out the name of the task, the task name, and the creator name.
+## If the task is not from a trusted creator and has a suspicious extension, it prints out the name of the task, the task name, and the creator name
 
 import os, pathlib, subprocess
 
