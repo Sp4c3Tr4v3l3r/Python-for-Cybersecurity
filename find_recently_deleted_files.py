@@ -1,6 +1,6 @@
 ## This code searchs the $Recycle.Bin folder on a Windows system to find recently deleted files.
 ## It looks for folders with a SID (Security Identifier) as their name and then look up the username associated with that SID.
-## It then prints the list of deleted files and the username of the user who deleted them.
+## It then prints the list of deleted files and the username of the user who deleted them
 
 import os
 import win32security
