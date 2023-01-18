@@ -1,5 +1,5 @@
 ## This code takes a user input of a process name and then search the list of active processes for that process name.
-## If it finds the process it terminates it using the SIGTERM signal.
+## If it finds the process it terminates it using the SIGTERM signal
 
 import psutil,os,signal
 
