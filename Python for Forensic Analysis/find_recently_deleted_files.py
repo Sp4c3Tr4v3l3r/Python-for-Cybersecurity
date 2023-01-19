@@ -2,16 +2,16 @@
 
 # Inspired by TJ O'Connor's book, "Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers" (Syngress, 2012, ISBN 978-1-59749-957-6), the script 'find_recently_deleted_files.py' was developed based on the code discussed in the chapter "Using Python to Recover Deleted Items in the Recycle Bin".
 
-## Problem
 """
-You want to find recently deleted files in the Windows Recycle Bin, and print the username associated with those files.
+Problem:
+- You want to find recently deleted files in the Windows Recycle Bin, and print the username associated with those files.
 """
 
-## Solution
 """
-Search the $Recycle.Bin folder on a Windows system.
-Iterate through the directories and look up the user account associated with the SID (security identifier) of the directory.
-Print the username and list of files deleted by the user.
+Solution:
+- Search the $Recycle.Bin folder on a Windows system.
+- Iterate through the directories and look up the user account associated with the SID (security identifier) of the directory.
+- Print the username and list of files deleted by the user.
 """
 
 import os
