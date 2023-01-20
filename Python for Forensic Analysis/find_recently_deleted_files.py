@@ -5,9 +5,7 @@
 """
 Problem:
 - You want to find recently deleted files in the Windows Recycle Bin, and print the username associated with those files.
-"""
 
-"""
 Solution:
 - Search the $Recycle.Bin folder on a Windows system.
 - Iterate through the directories and look up the user account associated with the SID (security identifier) of the directory.
