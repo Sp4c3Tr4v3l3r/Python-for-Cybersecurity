@@ -1,5 +1,5 @@
 ## This code checks to see if any of the given antivirus programs are installed on the system.
-## It loops through the given registry paths and checks if the given antivirus is installed.
+## It loops through the given registry paths and checks if the given antivirus is installed
 ## If it is, it prints out a message stating the antivirus is installed in the system
 
 import winreg
