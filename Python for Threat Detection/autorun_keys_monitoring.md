@@ -52,7 +52,7 @@ if __name__ == '__main__':
 ```
 <br/>
 
-##  [Inspired by Python for Cybersecurity](https://www.wiley.com/en-ie/Python+for+Cybersecurity:+Using+Python+for+Cyber+Offense+and+Defense-p-9781119850649)
+## Inspired by Python for Cybersecurity
 <blockquote>
 Inspired by Howard E. Poston III's book, "Python for Cybersecurity" (Wiley, 2020, ISBN 978-1-119-85064-9), the script 'autorun_keys_monitoring.py' was developed based on the code discussed in the "Maintaining Persistence" chapter, in the "Registry Monitoring for Defenders" topic.
 </blockquote>
